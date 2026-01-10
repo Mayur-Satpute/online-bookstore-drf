@@ -8,6 +8,7 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = ["id", "name"]
 
 
+
 class BookSerializer(serializers.ModelSerializer):
     category = CategorySerializer(read_only=True)
 
@@ -23,3 +24,17 @@ class BookSerializer(serializers.ModelSerializer):
             "image",
             "category",
         ]
+
+class BookCreateUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Book
+        fields = [
+            "title",
+            "author",
+            "isbn",
+            "price",
+            "description",
+            "image",
+            "category",
+        ]
+
