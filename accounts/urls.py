@@ -13,4 +13,5 @@ urlpatterns = [
     path("logout/", LogoutAPIView.as_view()),
     path("forgot-password/", ForgotPasswordAPIView.as_view()),
     path("reset-password/<int:uid>/<str:token>/", ResetPasswordAPIView.as_view()),
+    
 ]

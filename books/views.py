@@ -39,7 +39,6 @@ class BookDeleteAPIView(generics.DestroyAPIView):
     permission_classes = [IsAdminUser]
 
 
-
 class CategoryCreateAPIView(generics.CreateAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
