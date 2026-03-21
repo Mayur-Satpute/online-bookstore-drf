@@ -136,7 +136,7 @@ Contributions and feedback are always welcome.
 👤 Author
 Mayur Satpute
 Backend-focused Python Developer
-Building real-world systems with Django REST Framework.
+Building real-world systems with Django REST Framework
 
 🔗 GitHub: https://github.com/Mayur-Satpute
 
